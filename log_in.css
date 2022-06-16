@@ -1,0 +1,198 @@
+body {
+    background: linear-gradient(90deg, rgb(1, 52, 105) 0%, rgb(23, 174, 201) 55%, rgb(44, 105, 247) 100%);   
+}
+
+.form{
+    width: 480px;
+    height: 710px;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    box-shadow: 10px 10px 16px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-left: 500px;
+    padding: 30px;
+    color: #414141;
+     
+}
+
+#applogo{
+    height: 50px;
+    width: 50px;
+    margin-left: 40px;
+    margin-top: 10px;
+    transition: .3s linear;
+}
+
+#applogo:hover{
+  transform: scale(1.2);
+}
+
+.new{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input{
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 90%; 
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);  
+    transition: .3s linear;
+}
+
+.input:hover{
+transform: scale(1.05);
+}
+
+h2{
+    font-family: 'Acme', sans-serif;
+    font-size: x-large;
+    margin-left: 30px;
+}
+
+h3{
+    margin-left: 35px;
+    font-family: 'Acme', sans-serif;
+    font-size: x-large;
+}
+
+p{
+    margin-left: 50px;
+    font-family: 'Acme', sans-serif;
+    font-size: x-large;
+    display: flex;
+}
+
+
+.input:focus{
+    outline: 0;
+    border-color: #00cf1c;
+}
+
+.input:invalid{
+    border-color: #e41b17; 
+}
+
+
+
+
+/* Login Button Design */
+/*==================================*/
+     
+.btn-login{
+    /* margin-top: 10px; */
+    
+    display: block;
+    height: 50px;
+    width: 45%;
+    margin-left: 120px;
+    padding: 15px;
+    border: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn-login:focus{
+    outline: 0.5px;
+} 
+
+.btn-login:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+    transform: scale(1.1);
+} 
+
+/* Gradient Background */
+
+.gr-bg{
+    background: rgb(11, 179, 64);
+    
+}
+
+.login_icons{
+    display: flex;
+    justify-content:space-around;
+ 
+}
+
+#login{
+    margin-left: 155px;
+}
+
+#facebook{
+    height: 50px;
+    width: 50px;
+    transition: 0.3s linear;
+}
+
+#facebook:hover{
+    transform: scale(1.2);
+}
+
+#Google{
+    height: 50px;
+    width: 50px;
+    transition: 0.3s linear;
+}
+
+#Google:hover{
+    transform: scale(1.2);
+}
+
+#mobile{
+    height: 50px;
+    width: 50px;
+    transition: 0.3s linear;
+}
+
+#mobile:hover{
+    transform: scale(1.2);
+}
+
+
+/* signup Button Design */
+/*==================================*/
+
+.sign_up{
+    /* margin-top: 70px; */
+    margin-left: 50px;
+}
+
+.btn-signup{
+    display: block;
+    height: 50px;
+    width: 50%;
+    margin-left: 70px;
+    padding: 15px;
+    border: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.btn-signup:focus{
+    outline: 0.5px;
+} 
+
+.btn-signup:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+    transform: scale(1.1);
+} 
+
+.sgr-sbg{
+    background: rgb(11, 179, 64);
+}
+
+
+
+
+
+
+
+
+
